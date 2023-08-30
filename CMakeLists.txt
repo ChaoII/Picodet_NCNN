@@ -35,7 +35,10 @@ add_executable(picodet_demo
         main.cpp
         picodet.cpp
         picodet.cpp
-        picodet.h)
+        picodet.h
+        picodet_api.h
+        picodet_api.cpp
+)
 
 target_link_libraries(
         picodet_demo
