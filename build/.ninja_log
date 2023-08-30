@@ -1,0 +1,4 @@
+# ninja log v5
+0	2367	7150843376592445	CMakeFiles/picodet_demo.dir/main.cpp.obj	fa721a60df16cf2e
+12	2732	7150843380225134	CMakeFiles/picodet_demo.dir/picodet.cpp.obj	b5f58edeef9789a1
+2732	3391	7150843386989814	picodet_demo.exe	ff83271d70e704e2

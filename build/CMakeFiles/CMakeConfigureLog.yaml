@@ -1,0 +1,344 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32215 版
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.35.32215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/ProductCode/Picodet_NCNN/build/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32215 版
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.35.32215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/ProductCode/Picodet_NCNN/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-wqvpw2"
+      binary: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-wqvpw2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-wqvpw2
+        
+        Run Build Command(s):C:/software/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe -v cmTC_ca755 && [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ca755.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_ca755.dir\\ /FS -c "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ca755.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ca755.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_ca755.exe /implib:cmTC_ca755.lib /pdb:cmTC_ca755.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-wuzs0p"
+      binary: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-wuzs0p"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-wuzs0p
+        
+        Run Build Command(s):C:/software/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe -v cmTC_490bb && [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\\cmTC_490bb.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_490bb.dir\\ /FS -c "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_490bb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_490bb.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_490bb.exe /implib:cmTC_490bb.lib /pdb:cmTC_490bb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-a7qywf"
+      binary: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-a7qywf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-a7qywf
+        
+        Run Build Command(s):C:/software/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe -v cmTC_8dd72 && [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -openmp /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8dd72.dir\\OpenMPTryFlag.c.obj /FdCMakeFiles\\cmTC_8dd72.dir\\ /FS -c D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a7qywf\\OpenMPTryFlag.c
+        [2/2] cmd.exe /C "cd . && "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8dd72.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8dd72.dir\\OpenMPTryFlag.c.obj  /out:cmTC_8dd72.exe /implib:cmTC_8dd72.lib /pdb:cmTC_8dd72.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-8hxw28"
+      binary: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-8hxw28"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-8hxw28
+        
+        Run Build Command(s):C:/software/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe -v cmTC_589b6 && [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\\cmTC_589b6.dir\\OpenMPTryFlag.cpp.obj /FdCMakeFiles\\cmTC_589b6.dir\\ /FS -c D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8hxw28\\OpenMPTryFlag.cpp
+        [2/2] cmd.exe /C "cd . && "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_589b6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_589b6.dir\\OpenMPTryFlag.cpp.obj  /out:cmTC_589b6.exe /implib:cmTC_589b6.lib /pdb:cmTC_589b6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-2tucec"
+      binary: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-2tucec"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-2tucec
+        
+        Run Build Command(s):C:/software/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe -v cmTC_4bf0d && [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -openmp /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4bf0d.dir\\OpenMPCheckVersion.c.obj /FdCMakeFiles\\cmTC_4bf0d.dir\\ /FS -c D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2tucec\\OpenMPCheckVersion.c
+        [2/2] cmd.exe /C "cd . && "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4bf0d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4bf0d.dir\\OpenMPCheckVersion.c.obj  /out:cmTC_4bf0d.exe /implib:cmTC_4bf0d.lib /pdb:cmTC_4bf0d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-8litk7"
+      binary: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-8litk7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-8litk7
+        
+        Run Build Command(s):C:/software/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe -v cmTC_9a625 && [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\\cmTC_9a625.dir\\OpenMPCheckVersion.cpp.obj /FdCMakeFiles\\cmTC_9a625.dir\\ /FS -c D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8litk7\\OpenMPCheckVersion.cpp
+        [2/2] cmd.exe /C "cd . && "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9a625.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9a625.dir\\OpenMPCheckVersion.cpp.obj  /out:cmTC_9a625.exe /implib:cmTC_9a625.lib /pdb:cmTC_9a625.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "E:/develop/ncnn/build/install/lib/cmake/ncnn/ncnnConfig.cmake:14 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-6p98ly"
+      binary: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-6p98ly"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -openmp"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-6p98ly
+        
+        Run Build Command(s):C:/software/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe -v cmTC_aca0e && [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3 -openmp  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_aca0e.dir\\src.c.obj /FdCMakeFiles\\cmTC_aca0e.dir\\ /FS -c D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p98ly\\src.c
+        FAILED: CMakeFiles/cmTC_aca0e.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3 -openmp  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_aca0e.dir\\src.c.obj /FdCMakeFiles\\cmTC_aca0e.dir\\ /FS -c D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p98ly\\src.c
+        D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p98ly\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "E:/develop/ncnn/build/install/lib/cmake/ncnn/ncnnConfig.cmake:14 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-axes28"
+      binary: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-axes28"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -openmp"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-axes28
+        
+        Run Build Command(s):C:/software/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe -v cmTC_060ef && [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -openmp -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_060ef.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_060ef.dir\\ /FS -c D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-axes28\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_060ef.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_060ef.dir\\CheckFunctionExists.c.obj  /out:cmTC_060ef.exe /implib:cmTC_060ef.lib /pdb:cmTC_060ef.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_060ef.exe 
+        cmd.exe /C "cd . && "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_060ef.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_060ef.dir\\CheckFunctionExists.c.obj  /out:cmTC_060ef.exe /implib:cmTC_060ef.lib /pdb:cmTC_060ef.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_060ef.dir\\CheckFunctionExists.c.obj /out:cmTC_060ef.exe /implib:cmTC_060ef.lib /pdb:cmTC_060ef.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_060ef.dir/intermediate.manifest CMakeFiles\\cmTC_060ef.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/software/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "E:/develop/ncnn/build/install/lib/cmake/ncnn/ncnnConfig.cmake:14 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-j3g0wn"
+      binary: "D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-j3g0wn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -openmp"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/ProductCode/Picodet_NCNN/build/CMakeFiles/CMakeScratch/TryCompile-j3g0wn
+        
+        Run Build Command(s):C:/software/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe -v cmTC_75e4e && [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -openmp -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_75e4e.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_75e4e.dir\\ /FS -c D:\\ProductCode\\Picodet_NCNN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j3g0wn\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_75e4e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_75e4e.dir\\CheckFunctionExists.c.obj  /out:cmTC_75e4e.exe /implib:cmTC_75e4e.lib /pdb:cmTC_75e4e.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_75e4e.exe 
+        cmd.exe /C "cd . && "C:\\software\\CLion 2022.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_75e4e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_75e4e.dir\\CheckFunctionExists.c.obj  /out:cmTC_75e4e.exe /implib:cmTC_75e4e.lib /pdb:cmTC_75e4e.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1435~1.322\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_75e4e.dir\\CheckFunctionExists.c.obj /out:cmTC_75e4e.exe /implib:cmTC_75e4e.lib /pdb:cmTC_75e4e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_75e4e.dir/intermediate.manifest CMakeFiles\\cmTC_75e4e.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib”
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
