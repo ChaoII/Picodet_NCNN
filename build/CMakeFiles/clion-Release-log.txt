@@ -1,7 +1,0 @@
-"C:\software\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=C:/software/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\ProductCode\Picodet_NCNN -B D:\ProductCode\Picodet_NCNN\build
-OPENMP FOUND
-E:/develop/opencv/x64/vc16/staticlib
-ncnn FOUND 
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: D:/ProductCode/Picodet_NCNN/build
