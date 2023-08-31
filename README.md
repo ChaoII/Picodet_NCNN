@@ -42,6 +42,19 @@ make -j8
 ```
 ./picodet_demo
 ```
+结果如下
+```shell
+==============test for 'test_image_predict_file'==============
+init model handle
+person num: 10
+predict image file is saved in 'result1.jpg' as the binary directory
+free model handle
+==============test for 'test_image_predict_file'==============
+init model handle
+person num: 10
+predict image file is saved in 'result2.jpg' as the binary directory
+free model handle
+```
 
 # 5. x86主机下arm交叉编译环境搭建（基于docker）
 ```shell
