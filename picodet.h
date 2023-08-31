@@ -29,8 +29,7 @@ public:
 
     int detect(cv::Mat image, std::vector<BoxInfo> &result_list);
 
-    static void draw_bboxes(const cv::Mat &im, const std::vector<BoxInfo> &bboxes,
-                            const std::string &save_path = "None");
+    static cv::Mat draw_bboxes(const cv::Mat &im, const std::vector<BoxInfo> &bboxes);
 
     static std::vector<int> GenerateColorMap(int num_class_);
 

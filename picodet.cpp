@@ -49,8 +49,7 @@ std::vector<int> PicoDet::GenerateColorMap(int num_class_) {
     return colormap;
 }
 
-void PicoDet::draw_bboxes(const cv::Mat &im, const std::vector<BoxInfo> &bboxes,
-                          const std::string &save_path) {
+cv::Mat PicoDet::draw_bboxes(const cv::Mat &im, const std::vector<BoxInfo> &bboxes) {
     static const char *class_names[] = {
             "person", "bicycle", "car",
             "motorcycle", "airplane", "bus",
@@ -108,7 +107,7 @@ void PicoDet::draw_bboxes(const cv::Mat &im, const std::vector<BoxInfo> &bboxes,
         cv::putText(image, text, cv::Point(x, y + label_size.height),
                     cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255), thickness);
     }
-    cv::imwrite(save_path, image);
+    return image;
 }
 
 

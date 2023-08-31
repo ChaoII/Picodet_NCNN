@@ -12,12 +12,15 @@ if (OPENMP_FOUND)
 endif ()
 
 
-set(OpenCV_DIR "E:/develop/opencv/x64/vc16/staticlib")
+set(OpenCV_DIR "E:/develop/opencv/x64/vc16/staticlib" CACHE PATH "opencv directory" FORCE)
+message(${OpenCV_DIR})
 # find_package(OpenCV REQUIRED)
 find_package(OpenCV REQUIRED)
 
+set(ncnn_DIR  "E:/develop/ncnn/build/install/lib/cmake/ncnn" CACHE PATH "ncnn directory" FORCE)
+
 # find_package(ncnn REQUIRED)
-find_package(ncnn REQUIRED PATHS "E:/develop/ncnn/build/install/lib/cmake/ncnn")
+find_package(ncnn REQUIRED PATHS ${ncnn_DIR})
 if (NOT TARGET ncnn)
     message(WARNING "ncnn NOT FOUND!  Please set ncnn_DIR environment variable")
 else ()
@@ -31,17 +34,24 @@ include_directories(
 )
 
 add_definitions("-DUSE_MEM")
-add_executable(picodet_demo
-        main.cpp
+
+add_library(PersonDetAPI SHARED
         picodet.cpp
         picodet.cpp
         picodet.h
         picodet_api.h
         picodet_api.cpp
+        utils.cpp
+        utils.h)
+
+target_link_libraries(PersonDetAPI ncnn
+        ${OpenCV_LIBS})
+
+add_executable(picodet_demo
+        main.cpp
 )
 
 target_link_libraries(
         picodet_demo
-        ncnn
-        ${OpenCV_LIBS}
+        PersonDetAPI
 )

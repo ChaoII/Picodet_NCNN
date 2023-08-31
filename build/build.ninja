@@ -41,33 +41,72 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = D$:\ProductCode\Picodet_NCNN\build\
 # =============================================================================
+# Object build statements for SHARED_LIBRARY target PersonDetAPI
+
+
+#############################################
+# Order-only phony target for PersonDetAPI
+
+build cmake_object_order_depends_target_PersonDetAPI: phony || CMakeFiles\PersonDetAPI.dir
+
+build CMakeFiles\PersonDetAPI.dir\picodet.cpp.obj: CXX_COMPILER__PersonDetAPI_unscanned_Release D$:\ProductCode\Picodet_NCNN\picodet.cpp || cmake_object_order_depends_target_PersonDetAPI
+  DEFINES = -DNOMINMAX -DPersonDetAPI_EXPORTS -DUSE_MEM
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /O2 /Ob2 /DNDEBUG -std:c++17 -openmp
+  INCLUDES = -ID:\ProductCode\Picodet_NCNN -ID:\ProductCode\Picodet_NCNN\build -external:IE:\develop\opencv\include -external:IE:\develop\ncnn\build\install\include\ncnn -external:W0
+  OBJECT_DIR = CMakeFiles\PersonDetAPI.dir
+  OBJECT_FILE_DIR = CMakeFiles\PersonDetAPI.dir
+  TARGET_COMPILE_PDB = CMakeFiles\PersonDetAPI.dir\
+  TARGET_PDB = PersonDetAPI.pdb
+
+build CMakeFiles\PersonDetAPI.dir\picodet_api.cpp.obj: CXX_COMPILER__PersonDetAPI_unscanned_Release D$:\ProductCode\Picodet_NCNN\picodet_api.cpp || cmake_object_order_depends_target_PersonDetAPI
+  DEFINES = -DNOMINMAX -DPersonDetAPI_EXPORTS -DUSE_MEM
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /O2 /Ob2 /DNDEBUG -std:c++17 -openmp
+  INCLUDES = -ID:\ProductCode\Picodet_NCNN -ID:\ProductCode\Picodet_NCNN\build -external:IE:\develop\opencv\include -external:IE:\develop\ncnn\build\install\include\ncnn -external:W0
+  OBJECT_DIR = CMakeFiles\PersonDetAPI.dir
+  OBJECT_FILE_DIR = CMakeFiles\PersonDetAPI.dir
+  TARGET_COMPILE_PDB = CMakeFiles\PersonDetAPI.dir\
+  TARGET_PDB = PersonDetAPI.pdb
+
+build CMakeFiles\PersonDetAPI.dir\utils.cpp.obj: CXX_COMPILER__PersonDetAPI_unscanned_Release D$:\ProductCode\Picodet_NCNN\utils.cpp || cmake_object_order_depends_target_PersonDetAPI
+  DEFINES = -DNOMINMAX -DPersonDetAPI_EXPORTS -DUSE_MEM
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /O2 /Ob2 /DNDEBUG -std:c++17 -openmp
+  INCLUDES = -ID:\ProductCode\Picodet_NCNN -ID:\ProductCode\Picodet_NCNN\build -external:IE:\develop\opencv\include -external:IE:\develop\ncnn\build\install\include\ncnn -external:W0
+  OBJECT_DIR = CMakeFiles\PersonDetAPI.dir
+  OBJECT_FILE_DIR = CMakeFiles\PersonDetAPI.dir
+  TARGET_COMPILE_PDB = CMakeFiles\PersonDetAPI.dir\
+  TARGET_PDB = PersonDetAPI.pdb
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target PersonDetAPI
+
+
+#############################################
+# Link the shared library PersonDetAPI.dll
+
+build PersonDetAPI.dll PersonDetAPI.lib: CXX_SHARED_LIBRARY_LINKER__PersonDetAPI_Release CMakeFiles\PersonDetAPI.dir\picodet.cpp.obj CMakeFiles\PersonDetAPI.dir\picodet_api.cpp.obj CMakeFiles\PersonDetAPI.dir\utils.cpp.obj | E$:\develop\ncnn\build\install\lib\ncnn.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_calib3d460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_core460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_features2d460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_flann460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_gapi460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_highgui460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_imgcodecs460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_imgproc460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_photo460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_stitching460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_video460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_videoio460.lib E$:\develop\opencv\x64\vc16\staticlib\ade.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_imgcodecs460.lib E$:\develop\opencv\x64\vc16\staticlib\libjpeg-turbo.lib E$:\develop\opencv\x64\vc16\staticlib\libwebp.lib E$:\develop\opencv\x64\vc16\staticlib\libpng.lib E$:\develop\opencv\x64\vc16\staticlib\libtiff.lib E$:\develop\opencv\x64\vc16\staticlib\libopenjp2.lib E$:\develop\opencv\x64\vc16\staticlib\IlmImf.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_calib3d460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_features2d460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_flann460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_imgproc460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_core460.lib E$:\develop\opencv\x64\vc16\staticlib\zlib.lib E$:\develop\opencv\x64\vc16\staticlib\ittnotify.lib
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /O2 /Ob2 /DNDEBUG
+  LINK_FLAGS = /machine:x64 /INCREMENTAL:NO
+  LINK_LIBRARIES = E:\develop\ncnn\build\install\lib\ncnn.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_calib3d460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_core460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_features2d460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_flann460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_gapi460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_highgui460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_imgcodecs460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_imgproc460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_photo460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_stitching460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_video460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_videoio460.lib  E:\develop\opencv\x64\vc16\staticlib\ade.lib  wsock32.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_imgcodecs460.lib  E:\develop\opencv\x64\vc16\staticlib\libjpeg-turbo.lib  E:\develop\opencv\x64\vc16\staticlib\libwebp.lib  E:\develop\opencv\x64\vc16\staticlib\libpng.lib  E:\develop\opencv\x64\vc16\staticlib\libtiff.lib  E:\develop\opencv\x64\vc16\staticlib\libopenjp2.lib  E:\develop\opencv\x64\vc16\staticlib\IlmImf.lib  comctl32.lib  ole32.lib  setupapi.lib  ws2_32.lib  user32.lib  gdi32.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_calib3d460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_features2d460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_flann460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_imgproc460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_core460.lib  E:\develop\opencv\x64\vc16\staticlib\zlib.lib  E:\develop\opencv\x64\vc16\staticlib\ittnotify.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\PersonDetAPI.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_COMPILE_PDB = CMakeFiles\PersonDetAPI.dir\
+  TARGET_FILE = PersonDetAPI.dll
+  TARGET_IMPLIB = PersonDetAPI.lib
+  TARGET_PDB = PersonDetAPI.pdb
+
+# =============================================================================
 # Object build statements for EXECUTABLE target picodet_demo
 
 
 #############################################
 # Order-only phony target for picodet_demo
 
-build cmake_object_order_depends_target_picodet_demo: phony || CMakeFiles\picodet_demo.dir
+build cmake_object_order_depends_target_picodet_demo: phony || cmake_object_order_depends_target_PersonDetAPI
 
 build CMakeFiles\picodet_demo.dir\main.cpp.obj: CXX_COMPILER__picodet_demo_unscanned_Release D$:\ProductCode\Picodet_NCNN\main.cpp || cmake_object_order_depends_target_picodet_demo
-  DEFINES = -DNOMINMAX -DUSE_MEM
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /O2 /Ob2 /DNDEBUG -std:c++17 -openmp
-  INCLUDES = -ID:\ProductCode\Picodet_NCNN -ID:\ProductCode\Picodet_NCNN\build -external:IE:\develop\opencv\include -external:IE:\develop\ncnn\build\install\include\ncnn -external:W0
-  OBJECT_DIR = CMakeFiles\picodet_demo.dir
-  OBJECT_FILE_DIR = CMakeFiles\picodet_demo.dir
-  TARGET_COMPILE_PDB = CMakeFiles\picodet_demo.dir\
-  TARGET_PDB = picodet_demo.pdb
-
-build CMakeFiles\picodet_demo.dir\picodet.cpp.obj: CXX_COMPILER__picodet_demo_unscanned_Release D$:\ProductCode\Picodet_NCNN\picodet.cpp || cmake_object_order_depends_target_picodet_demo
-  DEFINES = -DNOMINMAX -DUSE_MEM
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /O2 /Ob2 /DNDEBUG -std:c++17 -openmp
-  INCLUDES = -ID:\ProductCode\Picodet_NCNN -ID:\ProductCode\Picodet_NCNN\build -external:IE:\develop\opencv\include -external:IE:\develop\ncnn\build\install\include\ncnn -external:W0
-  OBJECT_DIR = CMakeFiles\picodet_demo.dir
-  OBJECT_FILE_DIR = CMakeFiles\picodet_demo.dir
-  TARGET_COMPILE_PDB = CMakeFiles\picodet_demo.dir\
-  TARGET_PDB = picodet_demo.pdb
-
-build CMakeFiles\picodet_demo.dir\picodet_api.cpp.obj: CXX_COMPILER__picodet_demo_unscanned_Release D$:\ProductCode\Picodet_NCNN\picodet_api.cpp || cmake_object_order_depends_target_picodet_demo
   DEFINES = -DNOMINMAX -DUSE_MEM
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /O2 /Ob2 /DNDEBUG -std:c++17 -openmp
   INCLUDES = -ID:\ProductCode\Picodet_NCNN -ID:\ProductCode\Picodet_NCNN\build -external:IE:\develop\opencv\include -external:IE:\develop\ncnn\build\install\include\ncnn -external:W0
@@ -84,10 +123,10 @@ build CMakeFiles\picodet_demo.dir\picodet_api.cpp.obj: CXX_COMPILER__picodet_dem
 #############################################
 # Link the executable picodet_demo.exe
 
-build picodet_demo.exe: CXX_EXECUTABLE_LINKER__picodet_demo_Release CMakeFiles\picodet_demo.dir\main.cpp.obj CMakeFiles\picodet_demo.dir\picodet.cpp.obj CMakeFiles\picodet_demo.dir\picodet_api.cpp.obj | E$:\develop\ncnn\build\install\lib\ncnn.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_calib3d460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_core460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_features2d460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_flann460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_gapi460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_highgui460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_imgcodecs460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_imgproc460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_photo460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_stitching460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_video460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_videoio460.lib E$:\develop\opencv\x64\vc16\staticlib\ade.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_imgcodecs460.lib E$:\develop\opencv\x64\vc16\staticlib\libjpeg-turbo.lib E$:\develop\opencv\x64\vc16\staticlib\libwebp.lib E$:\develop\opencv\x64\vc16\staticlib\libpng.lib E$:\develop\opencv\x64\vc16\staticlib\libtiff.lib E$:\develop\opencv\x64\vc16\staticlib\libopenjp2.lib E$:\develop\opencv\x64\vc16\staticlib\IlmImf.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_calib3d460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_features2d460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_flann460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_imgproc460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_core460.lib E$:\develop\opencv\x64\vc16\staticlib\zlib.lib E$:\develop\opencv\x64\vc16\staticlib\ittnotify.lib
+build picodet_demo.exe: CXX_EXECUTABLE_LINKER__picodet_demo_Release CMakeFiles\picodet_demo.dir\main.cpp.obj | PersonDetAPI.lib E$:\develop\ncnn\build\install\lib\ncnn.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_gapi460.lib E$:\develop\opencv\x64\vc16\staticlib\ade.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_highgui460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_photo460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_stitching460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_video460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_calib3d460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_features2d460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_flann460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_videoio460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_imgcodecs460.lib E$:\develop\opencv\x64\vc16\staticlib\libjpeg-turbo.lib E$:\develop\opencv\x64\vc16\staticlib\libwebp.lib E$:\develop\opencv\x64\vc16\staticlib\libpng.lib E$:\develop\opencv\x64\vc16\staticlib\libtiff.lib E$:\develop\opencv\x64\vc16\staticlib\libopenjp2.lib E$:\develop\opencv\x64\vc16\staticlib\IlmImf.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_imgproc460.lib E$:\develop\opencv\x64\vc16\staticlib\opencv_core460.lib E$:\develop\opencv\x64\vc16\staticlib\zlib.lib E$:\develop\opencv\x64\vc16\staticlib\ittnotify.lib || PersonDetAPI.dll
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /O2 /Ob2 /DNDEBUG
   LINK_FLAGS = /machine:x64  /INCREMENTAL:NO /subsystem:console
-  LINK_LIBRARIES = E:\develop\ncnn\build\install\lib\ncnn.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_calib3d460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_core460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_features2d460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_flann460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_gapi460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_highgui460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_imgcodecs460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_imgproc460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_photo460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_stitching460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_video460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_videoio460.lib  E:\develop\opencv\x64\vc16\staticlib\ade.lib  wsock32.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_imgcodecs460.lib  E:\develop\opencv\x64\vc16\staticlib\libjpeg-turbo.lib  E:\develop\opencv\x64\vc16\staticlib\libwebp.lib  E:\develop\opencv\x64\vc16\staticlib\libpng.lib  E:\develop\opencv\x64\vc16\staticlib\libtiff.lib  E:\develop\opencv\x64\vc16\staticlib\libopenjp2.lib  E:\develop\opencv\x64\vc16\staticlib\IlmImf.lib  comctl32.lib  ole32.lib  setupapi.lib  ws2_32.lib  user32.lib  gdi32.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_calib3d460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_features2d460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_flann460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_imgproc460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_core460.lib  E:\develop\opencv\x64\vc16\staticlib\zlib.lib  E:\develop\opencv\x64\vc16\staticlib\ittnotify.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = PersonDetAPI.lib  E:\develop\ncnn\build\install\lib\ncnn.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_gapi460.lib  E:\develop\opencv\x64\vc16\staticlib\ade.lib  wsock32.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_highgui460.lib  comctl32.lib  ole32.lib  setupapi.lib  ws2_32.lib  user32.lib  gdi32.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_photo460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_stitching460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_video460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_calib3d460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_features2d460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_flann460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_videoio460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_imgcodecs460.lib  E:\develop\opencv\x64\vc16\staticlib\libjpeg-turbo.lib  E:\develop\opencv\x64\vc16\staticlib\libwebp.lib  E:\develop\opencv\x64\vc16\staticlib\libpng.lib  E:\develop\opencv\x64\vc16\staticlib\libtiff.lib  E:\develop\opencv\x64\vc16\staticlib\libopenjp2.lib  E:\develop\opencv\x64\vc16\staticlib\IlmImf.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_imgproc460.lib  E:\develop\opencv\x64\vc16\staticlib\opencv_core460.lib  E:\develop\opencv\x64\vc16\staticlib\zlib.lib  E:\develop\opencv\x64\vc16\staticlib\ittnotify.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\picodet_demo.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -122,6 +161,8 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build PersonDetAPI: phony PersonDetAPI.dll
+
 build picodet_demo: phony picodet_demo.exe
 
 # =============================================================================
@@ -132,7 +173,7 @@ build picodet_demo: phony picodet_demo.exe
 #############################################
 # Folder: D:/ProductCode/Picodet_NCNN/build
 
-build all: phony picodet_demo.exe
+build all: phony PersonDetAPI.dll picodet_demo.exe
 
 # =============================================================================
 # Built-in targets

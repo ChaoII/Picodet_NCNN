@@ -199,6 +199,9 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//opencv directory
+OpenCV_DIR:PATH=E:/develop/opencv/x64/vc16/staticlib
+
 //CXX compiler flags for OpenMP parallelization
 OpenMP_CXX_FLAGS:STRING=-openmp
 
@@ -211,7 +214,10 @@ OpenMP_C_FLAGS:STRING=-openmp
 //C compiler libraries for OpenMP parallelization
 OpenMP_C_LIB_NAMES:STRING=
 
-//The directory containing a CMake configuration file for ncnn.
+//Dependencies for the target
+PersonDetAPI_LIB_DEPENDS:STATIC=general;ncnn;general;opencv_calib3d;general;opencv_core;general;opencv_features2d;general;opencv_flann;general;opencv_gapi;general;opencv_highgui;general;opencv_imgcodecs;general;opencv_imgproc;general;opencv_photo;general;opencv_stitching;general;opencv_video;general;opencv_videoio;
+
+//ncnn directory
 ncnn_DIR:PATH=E:/develop/ncnn/build/install/lib/cmake/ncnn
 
 //Value Computed by CMake
