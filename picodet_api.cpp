@@ -6,13 +6,16 @@
 
 
 void
-init_model(model_handle_t*model_handle, int input_width, int input_height, float score_threshold, float nms_threshold) {
-    *model_handle = new PicoDet(input_width, input_height, score_threshold, nms_threshold);
+init_model(model_handle_t*model_handle, int input_width, int input_height,
+           float score_threshold, float nms_threshold) {
+    *model_handle = new PicoDet(input_width,
+                                input_height,
+                                score_threshold,
+                                nms_threshold);
 }
 
-int
-image_predict_file(model_handle_t model_handle, const char *image_path, void *out_buffer,
-                   const char *save_file_name) {
+int image_predict_file(model_handle_t model_handle, const char *image_path,
+                       void *out_buffer, const char *save_file_name) {
 
     if (!Utils::has_image_extension(image_path)) {
         return -1;

@@ -17,7 +17,7 @@ public:
     static void tolower_string(std::string &str);
 
 private:
-    inline static std::set<std::string> allowed_extensions = {".jpg", ".bmp", ".png"};
+    inline static std::set<std::string> allowed_extensions = {"jpg", "bmp", "png"};
 
 };
 

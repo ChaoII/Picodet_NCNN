@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
+
 set(CMAKE_CXX_STANDARD 17)
 
 project(picodet_demo)
@@ -17,7 +18,7 @@ message(${OpenCV_DIR})
 # find_package(OpenCV REQUIRED)
 find_package(OpenCV REQUIRED)
 
-set(ncnn_DIR  "E:/develop/ncnn/build/install/lib/cmake/ncnn" CACHE PATH "ncnn directory" FORCE)
+set(ncnn_DIR "E:/develop/ncnn/build/install/lib/cmake/ncnn" CACHE PATH "ncnn directory" FORCE)
 
 # find_package(ncnn REQUIRED)
 find_package(ncnn REQUIRED PATHS ${ncnn_DIR})
@@ -45,13 +46,12 @@ add_library(PersonDetAPI SHARED
         utils.h)
 
 target_link_libraries(PersonDetAPI ncnn
-        ${OpenCV_LIBS})
+        ${OpenCV_LIBS}
+        -lgomp)
 
-add_executable(picodet_demo
-        main.cpp
-)
+add_executable(${PROJECT_NAME} main.cpp)
 
 target_link_libraries(
-        picodet_demo
+        ${PROJECT_NAME}
         PersonDetAPI
 )

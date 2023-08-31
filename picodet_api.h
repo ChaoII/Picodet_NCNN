@@ -5,13 +5,18 @@
 #include "picodet.h"
 #include "utils.h"
 
+#if defined(_WIN32)
 #ifndef CAPI
-# if (defined _WIN32 || defined WINCE || defined __CYGWIN__)
-#   define API_EXPORT __declspec(dllexport)
-# elif defined __GNUC__ && __GNUC__ >= 4 && (defined(__APPLE__))
-#   define API_EXPORT __attribute__ ((visibility ("default")))
-# endif
+#define CAPI
 #endif
+#ifdef CAPI
+#define API_EXPORT __declspec(dllexport)
+#else
+#define API_EXPORT __declspec(dllimport)
+#endif  // API_EXPORT
+#else
+#define API_EXPORT __attribute__((visibility("default")))
+#endif  // _WIN32
 
 #define model_handle_t void *
 
