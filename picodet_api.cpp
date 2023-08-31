@@ -5,9 +5,8 @@
 #include "picodet_api.h"
 
 
-void
-init_model(model_handle_t*model_handle, int input_width, int input_height,
-           float score_threshold, float nms_threshold) {
+void init_model(model_handle_t*model_handle, int input_width,
+                int input_height, float score_threshold, float nms_threshold) {
     *model_handle = new PicoDet(input_width,
                                 input_height,
                                 score_threshold,

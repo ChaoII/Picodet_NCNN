@@ -13,7 +13,7 @@
 #define API_EXPORT __declspec(dllexport)
 #else
 #define API_EXPORT __declspec(dllimport)
-#endif  // API_EXPORT
+#endif  // CAPI
 #else
 #define API_EXPORT __attribute__((visibility("default")))
 #endif  // _WIN32

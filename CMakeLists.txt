@@ -13,12 +13,12 @@ if (OPENMP_FOUND)
 endif ()
 
 
-set(OpenCV_DIR "E:/develop/opencv/x64/vc16/staticlib" CACHE PATH "opencv directory" FORCE)
+set(OpenCV_DIR "E:/develop/opencv/x64/vc16/staticlib" CACHE PATH "opencv directory")
 message(${OpenCV_DIR})
 # find_package(OpenCV REQUIRED)
 find_package(OpenCV REQUIRED)
 
-set(ncnn_DIR "E:/develop/ncnn/build/install/lib/cmake/ncnn" CACHE PATH "ncnn directory" FORCE)
+set(ncnn_DIR "E:/develop/ncnn/build/install/lib/cmake/ncnn" CACHE PATH "ncnn directory")
 
 # find_package(ncnn REQUIRED)
 find_package(ncnn REQUIRED PATHS ${ncnn_DIR})
